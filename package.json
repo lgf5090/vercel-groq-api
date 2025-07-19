@@ -1,0 +1,16 @@
+{
+  "name": "vercel-groq-api",
+  "version": "1.0.0",
+  "description": "Groq API proxy using Vercel Edge Functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["proxy", "groq", "vercel", "edge-functions"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
